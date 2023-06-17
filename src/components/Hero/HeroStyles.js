@@ -17,3 +17,12 @@ export const LeftSection = styled.div`
     margin: 0 auto;
   }
 `;
+
+export const ImgHeadshot = styled.img`
+	width: 200px;
+	height: 220px;
+	border-radius: 25px;
+	object-fit: cover;
+
+  margin-bottom: 2rem;
+`
