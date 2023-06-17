@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
+import { Box, Boxes, BoxNum, BoxText } from './AccomplishmentsStyles';
 import { AccomplishmentsData } from "../../constants/constants";
 
 //Use accomplishmentsData to create a list of cards from constants
@@ -12,7 +12,7 @@ import { AccomplishmentsData } from "../../constants/constants";
 //   { number: 5000, text: 'Github Stars', }
 // ];
 
-const Acomplishments = () => (
+const Accomplishments = () => (
   <Section>
     <SectionTitle>
       Personal Accomplishments
@@ -28,4 +28,4 @@ const Acomplishments = () => (
   </Section>
 );
 
-export default Acomplishments;
+export default Accomplishments;
