@@ -5,6 +5,7 @@ import Projects from '../components/Projects/Projects';
 import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import About from '../components/About/About';
+import Contact from '../components/Contact/Contact';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 
@@ -30,6 +31,7 @@ const Home = () => {
        {/* Footer in Layout comp - Add GET IN TOUCH section. Email form and just centered social icons like my old portfolio had */}
       
       {/* <Accomplishments /> */}
+       <Contact />
     </Layout>
   );
 };

@@ -2,6 +2,7 @@ import {
   Section,
   SectionText,
   SectionTitle,
+  SectionDivider
 } from "../../styles/GlobalComponents";
 import {
   BlogCard,
@@ -16,6 +17,8 @@ import { HobbiesData } from "../../constants/constants";
 
 const About = () => (
   <Section id="about">
+    <SectionDivider />
+    <br />
     <SectionTitle>About</SectionTitle>
     <SectionText>
       I love to learn, collaborate, seek mentorship, and help others when it
