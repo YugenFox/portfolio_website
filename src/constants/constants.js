@@ -43,7 +43,8 @@ export const ProfileData = {
 };
 
 export const HobbiesData = [
-  { title: "Bouldering", text: "I like to climb", img: 'images/hobbies/climbing.gif'},
+  { title: "Bouldering", text: "I like to climb", img: 'images/hobbies/climbing.gif',
+  img_source: `<a href="https://storyset.com/people">People illustrations by Storyset</a>`},
 ];
 
 /*e.g for timeline data
