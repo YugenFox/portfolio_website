@@ -23,7 +23,9 @@ const Hero = () => (
       <SectionText>Multicultural Software Engineer who loves working with unique people to make exceptional products.</SectionText>
       <ImgHeadshot src={ProfileData.professionalHeadshot}/>
       {/* <img src={require("../../../public/images/1.png")} alt="Kaleb" /> */}
-      <Button onClick={() => window.location = 'https://google.com/should prob make this jump to my projects part of page'}>Learn More - (Fix Link)</Button>
+
+      {/* could change #projects to https://somewebsite if I want */}
+      <Button onClick={() => window.location = '#projects'}>Learn More</Button>
     </LeftSection>
   </Section>
 );

@@ -30,7 +30,9 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js
+            React.js <br />
+            TailwindCSS & DaisyUI <br />
+            MaterialUI
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -40,7 +42,10 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node.js and Databases
+            Node.js <br />
+            MongoDB <br />
+            Express.js <br />
+            SQL 
           </ListParagraph>
         </ListContainer>
       </ListItem><ListItem>
@@ -49,7 +54,9 @@ const Technologies = () => (
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools like Figma
+            Tools like Figma<br />
+            SAP Fiori<br />
+            Visio flowcharts
           </ListParagraph>
         </ListContainer>
       </ListItem>

@@ -16,6 +16,7 @@ const Home = () => {
       </Section>
       <Projects />
       <Technologies />
+      {/* Email Form */}
       <Timeline />
       <Accomplishments />
     </Layout>

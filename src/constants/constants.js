@@ -1,9 +1,9 @@
 export const projects = [
   {
-    title: 'MERN Memories',
+    title: 'Fully Responsive Website',
     description: `A fully responsive website built using React and styled-components, tailored to provide an exceptional viewing experience across desktops, tablets, and phones, while showcasing the remarkable capabilities and potential applications of GPT-3 in today's digital landscape.`,
       image: '/images/gpt3-project.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
+      tags: ['React', 'Styled-Components'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 0,
@@ -11,7 +11,7 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
+  { year: 2017, text: 'Started my technical journey', },
   { year: 2018, text: 'Worked as a freelance developer', },
   { year: 2019, text: 'Founded JavaScript Mastery', },
   { year: 2020, text: 'Shared my projects with the world', },
