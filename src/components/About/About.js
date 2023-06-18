@@ -19,7 +19,7 @@ const About = () => (
     <SectionTitle>About</SectionTitle>
     <SectionText>
       I love to learn, collaborate, seek mentorship, and help others when it
-      comes to software! However, when I'm not on the computer I love to:
+      comes to software! However, when I'm not on the computer I love:
     </SectionText>
     <GridContainer>
       {HobbiesData.map((item,index) =>(
