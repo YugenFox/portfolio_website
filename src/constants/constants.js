@@ -1,9 +1,9 @@
 export const projects = [
   {
     title: 'Fully Responsive Website',
-    description: `A fully responsive website built using React and styled-components, tailored to provide an exceptional viewing experience across desktops, tablets, and phones, while showcasing the remarkable capabilities and potential applications of GPT-3 in today's digital landscape.`,
+    description: `A fully responsive website built using React framework Next.js and styled-components, tailored to provide an exceptional viewing experience across desktops, tablets, and phones, while showcasing the remarkable capabilities and potential applications of GPT-3 in today's digital landscape.`,
       image: '/images/gpt3-project.png',
-      tags: ['React', 'Styled-Components'],
+      tags: ['React', 'Next.js', 'Styled-Components'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 0,

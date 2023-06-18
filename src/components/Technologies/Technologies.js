@@ -31,6 +31,7 @@ const Technologies = () => (
           <ListParagraph>
             Experience with <br />
             React.js <br />
+            Next.js <br />
             TailwindCSS & DaisyUI <br />
             MaterialUI
           </ListParagraph>
@@ -55,7 +56,7 @@ const Technologies = () => (
           <ListParagraph>
             Experience with <br />
             Tools like Figma<br />
-            SAP Fiori<br />
+            SAP Fiori design<br />
             Visio flowcharts
           </ListParagraph>
         </ListContainer>
