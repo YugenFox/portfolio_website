@@ -1,34 +1,50 @@
 export const projects = [
   {
-    title: 'Fully Responsive Website',
+    title: "Fully Responsive Website",
     description: `A fully responsive website built using React framework Next.js and styled-components, tailored to provide an exceptional viewing experience across desktops, tablets, and phones, while showcasing the remarkable capabilities and potential applications of GPT-3 in today's digital landscape.`,
-      image: '/images/gpt3-project.png',
-      tags: ['React', 'Next.js', 'Styled-Components'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    image: "/images/gpt3-project.png",
+    tags: ["React", "Next.js", "Styled-Components"],
+    source: "https://google.com",
+    visit: "https://google.com",
     id: 0,
   },
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my technical journey', },
-  { year: 2018, text: 'Provided comprehensive support to executive management and processing team during the successful launch of Mercedes-Benz New GLE', },
-  { year: 2019, text: 'Engaged in consulting services for the South-East region, offering invaluable assistance to Mercedes-Benz and their esteemed suppliers', },
-  { year: 2020, text: `Oversaw the development of a customized check printing form integrated into the client's system, catering to the needs of the financing department`, },
-  { year: 2021, text: 'Expanded my horizons by venturing into freelance software engineering, delivering exceptional products to highly satisfied clientele', },
+  { year: 2017, text: "Started my technical journey" },
+  {
+    year: 2018,
+    text: "Provided comprehensive support to executive management and processing team during the successful launch of Mercedes-Benz New GLE",
+  },
+  {
+    year: 2019,
+    text: "Engaged in consulting services for the South-East region, offering invaluable assistance to Mercedes-Benz and their esteemed suppliers",
+  },
+  {
+    year: 2020,
+    text: `Oversaw the development of a customized check printing form integrated into the client's system, catering to the needs of the financing department`,
+  },
+  {
+    year: 2021,
+    text: "Expanded my horizons by venturing into freelance software engineering, delivering exceptional products to highly satisfied clientele",
+  },
 ];
 
 // Used in Accomplishments component
 export const AccomplishmentsData = [
-  { number: 20, text: 'Open Source Projects'},
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
+  { number: 20, text: "Open Source Projects" },
+  { number: 1000, text: "Students" },
+  { number: 1900, text: "Github Followers" },
+  { number: 5000, text: "Github Stars" },
 ];
 
 export const ProfileData = {
-  professionalHeadshot: 'images/kaleb-professional-headshot.jpg',
-}
+  professionalHeadshot: "images/kaleb-professional-headshot.jpg",
+};
+
+export const HobbiesData = [
+  { title: "Bouldering", text: "I like to climb", img: 'images/hobbies/climbing.gif'},
+];
 
 /*e.g for timeline data
 export const TimeLineData = [
@@ -39,7 +55,6 @@ export const TimeLineData = [
   { year: 2021, text: 'Started my own platform', },
 ];
 */
-
 
 /* example data for projects
 export const projects = [
