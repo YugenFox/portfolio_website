@@ -57,7 +57,11 @@ const Timeline = () => {
   // avoids a bug where content is covered up if coming from smaller screen
   useEffect(() => {
     const handleResize = () => {
-      scroll(carouselRef.current, 0);
+      // scroll(carouselRef.current, 0);
+        //was getting a null error sometimes when using F12 and quick screen change previews so added if check to see if variable is there first thanks to gpt, maybe would work and stop bug. 
+      if (carouselRef.current) {
+        scroll(carouselRef.current, 0);
+      }
     };
 
     window.addEventListener("resize", handleResize);

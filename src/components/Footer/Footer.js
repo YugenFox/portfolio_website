@@ -18,10 +18,10 @@ const Footer = () => {
   return (
     <FooterWrapper>
       <LinkList>
-        <LinkColumn>
+        {/* <LinkColumn>
           <LinkTitle>Call</LinkTitle>
           <LinkItem href="tel:111-111-1111">111-111-1111</LinkItem>
-        </LinkColumn>
+        </LinkColumn> */}
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
           <LinkItem href="mailto:kalebsday@gmail.com">
@@ -31,7 +31,8 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating One project at a time</Slogan>
+          {/* <Slogan>Innovating One project at a time</Slogan> */}
+          <Slogan>Please reach out so we can create something great together</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/YugenFox">

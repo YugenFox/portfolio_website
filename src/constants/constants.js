@@ -43,8 +43,27 @@ export const ProfileData = {
 };
 
 export const HobbiesData = [
-  { title: "Bouldering", text: "I like to climb", img: 'images/hobbies/climbing.gif',
-  img_source: `<a href="https://storyset.com/people">People illustrations by Storyset</a>`},
+  {
+    title: "Bouldering",
+    text: "Climbing with friends on the weekends",
+    image: "images/hobbies/climbing.svg",
+    img_source: `<a href="https://storyset.com/people">People illustrations by Storyset</a>`, img_animationSettings: `https://storyset.com/illustration/climbing/amico/animate?share=66888`,
+    gif: "images/hobbies/climbing.gif",
+  },
+  {
+    title: "Gym",
+    text: "Going to the gym to reach new fitness goals such as being able to do more muscle ups",
+    image: "images/hobbies/gym.svg",
+    img_source: `<a href="https://storyset.com/people">People illustrations by Storyset</a>`, img_animationSettings: ``,
+    gif: "",
+  },
+  {
+    title: "Exploring The World",
+    text: "Traveling with friends to enjoy new cultures, food, and beautiful scenery",
+    image: "images/hobbies/backpackers.svg",
+    img_source: `<a href="https://storyset.com/people">People illustrations by Storyset</a>`, img_animationSettings: ``,
+    gif: "",
+  },
 ];
 
 /*e.g for timeline data
