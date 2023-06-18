@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const LeftSection = styled.div`
   width: 100%;
@@ -19,10 +19,27 @@ export const LeftSection = styled.div`
 `;
 
 export const ImgHeadshot = styled.img`
-	width: 200px;
-	height: 220px;
-	border-radius: 25px;
-	object-fit: cover;
+  width: 300px;
+  height: 340px;
+  border-radius: 25px;
+  object-fit: cover;
 
   margin-bottom: 2rem;
-`
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    width: 200px;
+    height: 220px;
+    border-radius: 25px;
+    object-fit: cover;
+
+    margin-bottom: 2rem;
+  }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 200px;
+    height: 220px;
+    border-radius: 25px;
+    object-fit: cover;
+
+    margin: 0 auto 2rem auto;
+  }
+`;
