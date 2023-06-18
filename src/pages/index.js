@@ -18,6 +18,11 @@ const Home = () => {
       <Technologies />
       {/* Email Form */}
       <Timeline />
+      {/* Maybe make a WhenI'm not at work section instead of Accomplishments. Like 
+      -Indoor Bouldering
+      -USA Freestyle Soccer competitor
+      -Playing Nintendo's Super Smash Bros Melee with friends
+       */}
       <Accomplishments />
     </Layout>
   );
