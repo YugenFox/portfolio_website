@@ -23,6 +23,8 @@ const Home = () => {
       -USA Freestyle Soccer competitor
       -Playing Nintendo's Super Smash Bros Melee with friends
        */}
+
+       {/* Footer in Layout comp - Add GET IN TOUCH section. Email form and just centered social icons like my old portfolio had */}
       <Accomplishments />
     </Layout>
   );
