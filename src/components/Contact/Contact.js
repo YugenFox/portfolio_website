@@ -15,14 +15,18 @@ import {
 } from "./ContactStyles";
 
 /* Below is for form to work */
+require("dotenv").config(); //for local or Netlify env file to set vars we need
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser"; // npm i @emailjs/browser
 // need to import from .env.local
 // # For emailjs email form in Contact
-const YOUR_SERVICE_ID = "service_7ha4py8";
-const YOUR_TEMPLATE_ID = "template_c88nrhc";
+
+
+const YOUR_SERVICE_ID = process.env.YOUR_SERVICE_ID;
+const YOUR_TEMPLATE_ID = process.env.YOUR_TEMPLATE_ID;
 // #Account>API Keys-Public key
-const YOUR_PUBLIC_KEY = "WXsCWIXjnidgKKIXm";
+const YOUR_PUBLIC_KEY = process.env.YOUR_PUBLIC_KEY;
+console.log(YOUR_TEMPLATE_ID, "form template ID test")
 
 const Contact = () => {
   const form = useRef();
