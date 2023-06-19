@@ -17,8 +17,9 @@ import {
 /* Below is for form to work */
 // require("dotenv").config();
  //for local or Netlify env file to set vars we need
- const path = require('path')
-require('dotenv').config({ path: path.resolve(__dirname, '../.env') })
+
+//  const path = require('path')
+// require('dotenv').config({ path: path.resolve(__dirname, '../.env') }) //testing blank to see if work on netlify
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser"; // npm i @emailjs/browser
 // need to import from .env.local
