@@ -25,12 +25,7 @@ export const ContactSubtext = styled(SectionSubText)`
 export const FormContainer = styled.div`
   width: 100%;
   max-width: 500px;
-  /* max-width: 500px; */
   margin: 40px auto 0 auto;
-
-  /* @media (min-width: 500px) {
-    width: 500px;
-  } */
 `;
 
 export const Input = styled.input`
@@ -53,23 +48,16 @@ export const TextArea = styled.textarea`
   color: #fff;
   display: block;
   font-size: 12pt;
-  margin-bottom: 3px;
+  /* margin-bottom: 3px; */
+  margin-bottom: .5rem;
   outline: none;
   padding: 10px 15px;
   width: 100%;
 `;
 
 export const SubmitButton = styled(Button)`
-  width: 100%;
-  margin: auto;
-  background: transparent;
-  color: #fff;
-
-  border: 2px solid #fff;
-  box-sizing: inherit;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 13pt;
-  padding: 10px 20px;
-  transition: all 0.5s;
+  /* no styles seemed to work */
+  /* margin-top: 2rem; */
+  /* width: 50px;
+  height: 50px; */
 `;
