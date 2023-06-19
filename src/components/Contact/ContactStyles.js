@@ -22,7 +22,7 @@ export const ContactSubtext = styled(SectionSubText)`
   font-weight: 600;
 `;
 
-export const FormContainer = styled.div`
+export const FormContainer = styled.form`
   width: 100%;
   max-width: 500px;
   margin: 40px auto 0 auto;
