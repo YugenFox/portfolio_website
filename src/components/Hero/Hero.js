@@ -20,7 +20,7 @@ const Hero = () => (
         Hi, I'm Kaleb Day
         {/* Hi, I'm Kaleb your next software engineer. (add 3 flags) Some words cut off on tablet size 700-800px ish */}
       </SectionTitle>
-      <SectionText>Multicultural Software Engineer who loves working with unique people to make exceptional products.</SectionText>
+      <SectionText>Multicultural Software Engineer who loves working with unique people to make exceptional products</SectionText>
       <ImgHeadshot src={ProfileData.professionalHeadshot}/>
       {/* <img src={require("../../../public/images/1.png")} alt="Kaleb" /> */}
 
