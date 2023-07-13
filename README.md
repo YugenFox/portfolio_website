@@ -5,8 +5,8 @@ Check out the live demo of my portfolio website: [My Portfolio](https://kalebsda
 Welcome to my personal portfolio website! This website showcases my skills, projects, and experience as a software engineer.
 
 ## Technologies Featured
--React.js
--CSS
--StyledComponents
--Node
--MongoDB
+- React.js
+- CSS
+- StyledComponents
+- Node
+- MongoDB
