@@ -1,12 +1,21 @@
 export const projects = [
   {
+    title: "Weather Travel App",
+    description: `A responsive website built using React, CSS, Opencage Geocoding API, Open-meteo Weather API, and Local Storage. Get accurate weather information for your destinations and enjoy your travels to the fullest.`,
+    image: "/images/weather-travel-app_zoomed2.png",
+    tags: ["React", "Geocoding API", "Weather API",],
+    sourceCode: "https://github.com/YugenFox/weather-travel-app",
+    visitLivePreview: "https://weather-travel-app_kaleb-day.surge.sh/",
+    id: 0,
+  },
+  {
     title: "Fully Responsive Website",
     description: `A fully responsive website built using React framework Next.js and styled-components, tailored to provide an exceptional viewing experience across desktops, tablets, and phones, while showcasing the remarkable capabilities and potential applications of GPT-3 in today's digital landscape.`,
     image: "/images/gpt3-project.png",
     tags: ["React", "Next.js", "Styled-Components"],
     sourceCode: "https://github.com/YugenFox/portfolio_website",
     visitLivePreview: "https://gpt3_kaleb-day.surge.sh/",
-    id: 0,
+    id: 1,
   },
 ];
 
